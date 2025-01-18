@@ -21,13 +21,19 @@
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-.sidebar .title svg {
-    height: 35px;
+.sidebar svg {
+    height: 24px;
+}
+
+
+.sidebar .logo {
+    display: flex;
+    align-items: center;
 }
 
 .article-1  {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50px 50px;
 }
 
 .article-1 .project-title{
