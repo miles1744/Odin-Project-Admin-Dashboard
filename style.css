@@ -24,3 +24,7 @@
 .article-1  {
     display: flex;
 }
+
+.article-1 .project-title{
+    display: block;
+}
