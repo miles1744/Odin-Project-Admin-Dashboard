@@ -22,9 +22,10 @@
 }
 
 .article-1  {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .article-1 .project-title{
-    display: block;
+    grid-column: 1/3;
 }
