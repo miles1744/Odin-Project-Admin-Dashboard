@@ -21,6 +21,10 @@
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+.sidebar .title svg {
+    height: 35px;
+}
+
 .article-1  {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -39,3 +43,7 @@
     grid-row: 2/3;
     grid-column: 2/3;
 }
+
+.article-2-3 {
+    display: grid ;
+}  
